@@ -34,4 +34,18 @@ app.listen(PORT, () => {
         .catch((err) => console.error("Failed to load the open module", err));
 });
 
-// work on getting all the question prompts done, then add in submit button and hook everything up to the backend
+
+/* 
+    STOPPING POINT -- 
+    - Confer w/chatgpt on basic mvp
+    - set up aws sql to store the recipes
+    - end game would be a fluid ui where you can drag and drop recipe blocks to easily make
+        recipes(effectively flowcharts)
+    - also holds a file storage system for individual recipes
+    - later end game downloadble recipe templates from other people for stuff 
+    - recipe will hold options for if you encounter an error
+        - maybe shared recipes can be changed with how to resolve certain errors
+    -
+        
+
+*/
