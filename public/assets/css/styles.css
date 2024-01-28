@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+html, body{
+    height:100%;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Add styles for main and footer here if needed */
+
+/* パート6：メインコンテンツスタイル */
+
+main {
+        display: flex;
+        flex:1;
+    flex-grow: 1; /* Allow main content to grow and fill available space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px 3%;
+    box-sizing: border-box;
+    justify-content: center; /* Include padding in height calculation */
+    /* ... (scrollbar styles) */
+}
+
+/* Modern scrollbar styling */
+main::-webkit-scrollbar {
+    width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+main::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+main section {
+    margin-bottom: 20px;
+    /* height:3000px; */
+    display:flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width:800px;
+    width:100%;
+}
+
+form div{
+    margin: 10px 0;
+    width:100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+/* パート7：フッタースタイル */
+/* footer {
+    background: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px 0 0 20px;
+    bottom: 0;
+    width: 100%;
+} */
